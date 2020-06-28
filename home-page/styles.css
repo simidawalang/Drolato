@@ -15,17 +15,17 @@ header{
 	height: 100vh;
 	background: center no-repeat;
 	background-size: cover;
-	animation: slide 30s infinite;
+	animation: slide 30s ease-in-out infinite;
 }
 
 @keyframes slide{
 	0%{
 		background-image: url('img/bg1.jpg');
 	}
-	30%{
+	25%{
 		background-image: url('img/bg2.jpg');
 	}
-	65%{
+	75%{
 		background-image: url('img/bg3.jpg');
 	}
 	100%{
